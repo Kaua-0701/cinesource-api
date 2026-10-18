@@ -116,7 +116,7 @@ app.put('/movies/:id', async (req, res) => {
     }
     res.status(200).send({ message: 'Filme atualizado com sucesso!' });
 });
-// - REMOÇÃO DE FILMES
+// - DELETAR FILMES
 app.delete('/movies/:id', async (req, res) => {
     const id = Number(req.params.id);
     try {
