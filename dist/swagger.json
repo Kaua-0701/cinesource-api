@@ -31,7 +31,7 @@
                 },
                 "responses": {
                     "400": {
-                        "description": "O campo \"title\" é obrigatório, não pode estar vazio nem ser apenas \"string\"."
+                        "description": "O campo \"title\" é obrigatório, não pode estar vazio e nem ser apenas \"string\"."
                     },
                     "201": {
                         "description": "Filme cadastrado com sucesso!"
